@@ -1,0 +1,335 @@
+
+/* < zmienna dla czcionki, niebiski dla podświetlonego linku> */
+/* < OGÓLNE USTAWIENIA TEKST */
+:root {
+  --main-font:font-family:'Roboto', sans-serif;
+  --secondary-font:font-family:'Raleway', sans-serif;
+  --main-color: #2196f3;
+  --main-text-color:#000000;
+}
+
+body{
+    font-family: var(--main-font)
+}
+
+.navigation-list,
+.address-list,
+.list-script,
+.list-title-branch,
+.list-title-team,
+.button-filtr,
+.list-container-projects
+{list-style-type: none}
+
+/* < OGÓLNE USTAWIENIA WIZUALIZACJA */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    margin:0 auto;
+}
+
+/* <--! <<<<<<<<<<<<<<<<<<< HEATHER >>>>>>>>>>>>>>>>> */
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.header .conteiner {
+    display:flex;
+    align-items: center;
+}
+
+.navigation-logo{
+    margin-right: 93px;
+   
+}
+
+.navigation-list{
+    display: flex;
+}
+
+.address-list{display: flex;}
+
+.navigation-list-item:not(:last-child){
+    margin-right: 46px;
+}
+
+.header .address-list{margin-left: auto;}
+
+.address-phone-header{
+    margin-left: 50px;
+}
+
+.navigation-logo,
+.navigation-logo-web
+{ 
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    text-align:left;
+    vertical-align: top;
+   
+    text-decoration:none
+}
+
+.navigation-logo{
+    color: #000000;
+}
+
+.navigation-logo-web{
+color: var(--main-text-color);
+color: #2196F3;}
+
+
+
+.navigation-list-link,
+.address-header{ 
+font-family: Roboto;
+Font-size: 14px;
+Line-height: 16px;
+Line-height: 100%;
+text-align: Left;
+Vertical-align: Top;
+
+color:#212121;
+text-decoration:none;
+}
+
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-mail-header:hover,
+.address-mail-header:focus,
+.address-phone-header:hover,
+.address-phone-header:focus
+{
+    color: var(--main-color);
+cursor:pointer}
+
+
+    .address-mail-header,
+    .address-phone-header
+        {text-decoration:none;
+            color: 
+            #757575
+    }
+
+   
+
+/* <!-- <<<<<<<<<<<<<<BODY >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.main{
+    background-color: 
+    #2F303A;
+}
+.title{white-space: pre;
+text-align: center;}
+
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+ 
+  text-align: center;
+  background-color: #2f303a;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-order {
+  background-color: #2196f3;
+  display: block;
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* <!-- <<<<<<<<<<<<<<START container-scripts >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.title-script{
+    
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    text-align:left;
+    vertical-align: top;
+
+
+}
+.script{text-align: left;
+  
+    
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 146%;
+    text-align:left;
+    vertical-align: top;
+   
+color: #757575;
+}
+
+/* <!-- <<<<<<<<<<<<<<END container-scripts >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <!-- <<<<<<<<<<<<<<START container branches >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* <!-- <<<<<<<<<<<<<<START container-team >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.title-branch,
+.title-team
+{text-align: center;
+    font-weight: 700;
+    font-family: Roboto;
+      font-size: 36px;
+      line-height: 42px;
+      line-height: 100%;
+      vertical-align: top;
+  
+      color: 
+      #212121}
+
+
+.title-team-name{font-family: Roboto;
+    font-size: 16px;
+    line-height: 42px;
+    line-height: 100%;
+    vertical-align: top;
+  
+    color: 
+    #212121}
+
+.title-team-job{font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    vertical-align: top;
+ 
+    color:#757575
+}
+
+/* <--! <<<<<<<<<<<<<<<<<<< START FOOTHER >>>>>>>>>>>>>>>>> */
+
+.address-foother{
+    background-color: #2F303A;
+    font-style: normal ;
+}
+.address-foother
+{
+font-family: Roboto;
+color: var(--main-text-color);
+color: #2196F3
+}
+
+.navigation-logo-web-foother{
+    color: var(--main-text-color);
+    color: #2196F3}
+    
+    .navigation-logo-foother {
+        color:#FFFFFF
+    }
+
+    .navigation-logo-web-foother{
+        font-family: Raleway;
+        font-size: 26px;
+        line-height: 31px;
+        line-height: 100%;
+        text-align:left;
+        vertical-align: top;
+       
+        text-decoration:none;
+        color:var(--main-color);
+        color: var(--main-text-color);
+        color: #2196F3;
+    }
+    
+
+.address-place-foother{
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 146%;
+    vertical-align: top;
+  
+    color:#FFFFFF;
+}
+
+.address-mail-foother,
+.address-phone-foother
+{
+text-decoration: none;
+color:rgba(255, 255, 255, 0.6);
+}
+
+/* <--! <<<<<<<<<<<<<<<<<<< END FOOTHER >>>>>>>>>>>>>>>>> */
+
+
+
+/* <--! <<<<<<<<<<<<<<< START PORTFOLIO>>>>>>>>>>>>>>>>>>>>
+/* Header jak w index.html> */
+/* Foother jak w index.html> */
+
+
+
+.navigation-list-link-potrfolio{
+    color: var(--main-color);
+    text-decoration: none
+}
+
+ /* <--! <<<<<<<<<<<<<<< START button-filtr>>>>>>>>>>>>>>>>>>>
+/*  */
+
+.button-filtr-item{ background-color: #F5F4FA;
+    font-size: 16px;
+    line-height: 26px;
+    line-height: 139%;
+    vertical-align: top;
+
+    color: #212121;
+    text-align:center;
+  }
+
+  .button-filtr-item:hover,
+  .button-filtr-item:focus{
+    background-color:#2196F3;
+  color:#FFFFFF;
+  cursor: pointer;
+  }
+
+
+  /* <--! <<<<<<<<<<<<<<< START container-projects>>>>>>>>>>>>>>>>>>>
+/*  */
+
+.filter-project-name{
+    font-family: roboto;
+    font-size: 18px;
+    line-height: 36px;
+    line-height: 171%;
+vertical-align: top;
+color:#212121;
+}
+
+ 
+.filter-project{
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 30px;
+    line-height: 160%;
+vertical-align:top;
+color:#757575;
+}
+/* <--! <<<<<<<<<<<<<<< END container-projects>>>>>>>>>>>>>>>>>>>
+/*  */
