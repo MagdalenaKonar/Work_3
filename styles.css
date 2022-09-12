@@ -349,27 +349,27 @@ border-radius: 0px 0px 4px 4px;
 }
 
 
- /* <--! <<<<<<<<<<<<<<<<<<< START FOOTHER >>>>>>>>>>>>>>>>> */
+ /* <--! <<<<<<<<<<<<<<<<<<< START FOOTER >>>>>>>>>>>>>>>>> */
 
-.address-foother{
+.address-footer{
     font-style: normal ;
 }
-.address-foother
+.address-footer
 {
 font-family: Roboto;
 color: var(--main-text-color);
 color: #2196F3
 }
 
-.navigation-logo-web-foother{
+.navigation-logo-web-footer{
     color: var(--main-text-color);
     color: #2196F3}
     
-    .navigation-logo-foother {
+    .navigation-logo-footer {
         color:#FFFFFF
     }
 
-    .navigation-logo-web-foother{
+    .navigation-logo-web-footer{
         font-family: Raleway;
         font-size: 26px;
         line-height: 31px;
@@ -384,7 +384,7 @@ color: #2196F3
     }
     
 
-.address-place-foother{
+.address-place-footer{
     font-size: 14px;
     line-height: 24px;
     line-height: 146%;
@@ -392,14 +392,14 @@ color: #2196F3
     color:#FFFFFF;
 }
 
-.address-mail-foother,
-.address-phone-foother
+.address-mail-footer,
+.address-phone-footer
 {
 text-decoration: none;
 color:rgba(255, 255, 255, 0.6);
 }
 
-.foother .container{
+.footer .container{
     margin-right: 0;}
 
 .footer{
@@ -420,7 +420,7 @@ color:rgba(255, 255, 255, 0.6);
 display:block;
 }
 
-.address-place-foother{
+.address-place-footer{
     width: 246x;
     height:21px ;
     margin-right: 0px;
@@ -430,7 +430,7 @@ padding: 0px;
 margin-bottom: 9px;}
 
 
-.address-mail-foother{
+.address-mail-footer{
     display: block;
     width: 231px;
     height:21px;
@@ -441,26 +441,26 @@ margin-bottom: 9px;}
 margin-left: 0px;
 }
 
-.foother-contact{
+.footer-contact{
     width: 246px;
     height: 81px;
     margin: 0px;
 }
 
-.address-phone-foother{
+.address-phone-footer{
     display: block;
     width: 231px;
     margin: 9px 0px 0px 0px;
     padding:0px;
 }
 
-/* <--! <<<<<<<<<<<<<<<<<<< END FOOTHER >>>>>>>>>>>>>>>>> */
+/* <--! <<<<<<<<<<<<<<<<<<< END FOOTER >>>>>>>>>>>>>>>>> */
 
 
 
 /* <--! <<<<<<<<<<<<<<< START PORTFOLIO>>>>>>>>>>>>>>>>>>>>
 /* Header jak w index.html> */
-/* Foother jak w index.html> */
+/* Footer jak w index.html> */
 
 
 
