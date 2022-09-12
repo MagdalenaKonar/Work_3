@@ -9,7 +9,13 @@
 }
 
 body{
-    font-family: var(--main-font)
+    font-family: var(--main-font);  
+}
+
+body{
+    margin-left:auto;
+    margin-right: auto;
+
 }
 
 .navigation-list,
@@ -18,7 +24,7 @@ body{
 .list-title-branch,
 .list-title-team,
 .button-filtr,
-.list-container-projects
+.list-page-projects
 {list-style-type: none}
 
 /* < OGÓLNE USTAWIENIA WIZUALIZACJA */
@@ -35,24 +41,27 @@ img{
 .container{
     width: 1200px;
     padding: 0 15px;
-    align-items: center;
-    margin:0 auto;
+    margin:  0 auto;
 }
 
 /* <--! <<<<<<<<<<<<<<<<<<< HEATHER >>>>>>>>>>>>>>>>> */
 
 .container{
     display: flex;
-    align-items: center;
+
 }
 
-.header .conteiner {
+.header .container {
     display:flex;
-    align-items: center;
+    align-items: baseline;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: solid 1px #ECECEC ;
 }
 
 .navigation-logo{
     margin-right: 93px;
+    
    
 }
 
@@ -66,7 +75,8 @@ img{
     margin-right: 46px;
 }
 
-.header .address-list{margin-left: auto;}
+.header .address-list{margin-left:auto
+}
 
 .address-phone-header{
     margin-left: 50px;
@@ -81,8 +91,8 @@ img{
     line-height: 100%;
     text-align:left;
     vertical-align: top;
-   
-    text-decoration:none
+    text-decoration:none;
+
 }
 
 .navigation-logo{
@@ -132,63 +142,119 @@ cursor:pointer}
 /* <!-- <<<<<<<<<<<<<<BODY >>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
-.main{
-    background-color: 
-    #2F303A;
-}
-.title{white-space: pre;
-text-align: center;}
 
+.effective-sollution{
+    background-color:#2F303A;
+    width: 1600px;
+    height: 600px;
+    padding-top: 205px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.effective-sollution .container{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
 
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
- 
   text-align: center;
-  background-color: #2f303a;
   color: #ffffff;
   text-transform: uppercase;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .button-order {
   background-color: #2196f3;
-  display: block;
   height: 50px;
   width: 200px;
   border-radius: 4px;
   color: #ffffff;
   font-size: 16px;
   cursor: pointer;
+margin-top: 30px;
+padding: 10px 41px 10px 42px;
 }
 
 
 /* <!-- <<<<<<<<<<<<<<START container-scripts >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.list-script{display: flex;
+    margin-top: 84px;
+   justify-content: space-between;
+   margin-bottom: 0;
+   gap:30px;
+   margin-left: auto;
+ padding: 0;
+ margin-bottom: 79px;
+}
+
+
+.scripts .container{
+    margin-right: auto;
+    margin-left: auto;}
+
 .title-script{
-    
     font-size: 14px;
     line-height: 16px;
     line-height: 100%;
     text-align:left;
     vertical-align: top;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: 'Roboto';
+font-weight: 700;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
 
 }
-.script{text-align: left;
-  
-    
+.script{
     font-size: 14px;
     line-height: 24px;
-    line-height: 146%;
-    text-align:left;
-    vertical-align: top;
-   
+    text-align: start; 
 color: #757575;
+letter-spacing: 0.03em;
+text-align: justify;
+width:270px;
+
 }
+
+
 
 /* <!-- <<<<<<<<<<<<<<END container-scripts >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* <!-- <<<<<<<<<<<<<<START container branches >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.branches .container {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 109px;
+}
+
+.list-title-branch{display: flex;
+gap:30px;
+margin-left: 0px;
+padding: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.title-branch{
+    margin-bottom: 50px;
+}
+
+
 /* <!-- <<<<<<<<<<<<<<START container-team >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .title-branch,
 .title-team
@@ -208,24 +274,84 @@ color: #757575;
     font-size: 16px;
     line-height: 42px;
     line-height: 100%;
-    vertical-align: top;
-  
-    color: 
-    #212121}
+    /* vertical-align: top; */
+    color: #212121;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+   
+}
 
 .title-team-job{font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
     line-height: 100%;
     vertical-align: top;
- 
-    color:#757575
+    color:#757575;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
-/* <--! <<<<<<<<<<<<<<<<<<< START FOOTHER >>>>>>>>>>>>>>>>> */
+.team .container 
+{margin-right: auto;
+margin-left: auto;
+display: block;   
+
+}
+
+.team{
+    background-color:#F5F4FA;
+    width: 1600px;
+    height: 648px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 94px
+   
+}
+    .list-title-team{
+        display: flex;
+gap:30px;
+margin-left: 0px;
+padding: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+ }
+   
+
+.title-team{
+display: block;
+margin-top: 0px;
+margin-bottom: 50px;
+margin-right: auto;
+margin-left: auto;
+padding: 0px;
+width: 209px;
+height: 42px;
+text-align: center;
+
+}
+
+.list-title-team-item:not(:last-child){
+   gap: 30px;
+}
+
+.list-title-team-item{
+margin-left: 0px;
+margin-right: 0px;
+padding: 0px;
+height: 368px;
+width: 270px;
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+
+ /* <--! <<<<<<<<<<<<<<<<<<< START FOOTHER >>>>>>>>>>>>>>>>> */
 
 .address-foother{
-    background-color: #2F303A;
     font-style: normal ;
 }
 .address-foother
@@ -263,7 +389,6 @@ color: #2196F3
     line-height: 24px;
     line-height: 146%;
     vertical-align: top;
-  
     color:#FFFFFF;
 }
 
@@ -272,6 +397,61 @@ color: #2196F3
 {
 text-decoration: none;
 color:rgba(255, 255, 255, 0.6);
+}
+
+.foother .container{
+    margin-right: 0;}
+
+.footer{
+    background-color: #2F303A;
+    height: 252px;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo{
+    width: 145px;
+    height:31px ;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+display:block;
+}
+
+.address-place-foother{
+    width: 246x;
+    height:21px ;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+padding: 0px;
+margin-bottom: 9px;}
+
+
+.address-mail-foother{
+    display: block;
+    width: 231px;
+    height:21px;
+    padding: 0px;
+    /* margin: 0px 0px 9px 0px; */
+    margin-top: 0px;
+    margin-right:0px;
+margin-left: 0px;
+}
+
+.foother-contact{
+    width: 246px;
+    height: 81px;
+    margin: 0px;
+}
+
+.address-phone-foother{
+    display: block;
+    width: 231px;
+    margin: 9px 0px 0px 0px;
+    padding:0px;
 }
 
 /* <--! <<<<<<<<<<<<<<<<<<< END FOOTHER >>>>>>>>>>>>>>>>> */
@@ -294,12 +474,14 @@ color:rgba(255, 255, 255, 0.6);
 
 .button-filtr-item{ background-color: #F5F4FA;
     font-size: 16px;
-    line-height: 26px;
-    line-height: 139%;
+    font-weight: 500px;
     vertical-align: top;
-
     color: #212121;
     text-align:center;
+    height: 38px;
+    padding: 6px 22px;
+    border: 0px;
+    border-radius:  4px;
   }
 
   .button-filtr-item:hover,
@@ -307,10 +489,42 @@ color:rgba(255, 255, 255, 0.6);
     background-color:#2196F3;
   color:#FFFFFF;
   cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
+  .button-filtr{
+    display:flex;
+margin: auto;
+width: 572px;
+height: 54px;
+padding: 0;
+margin-top: 94px;
+margin-bottom: 34px;
+justify-content: space-between;
+  }
 
-  /* <--! <<<<<<<<<<<<<<< START container-projects>>>>>>>>>>>>>>>>>>>
+   .all {
+ width: 121px;
+  }
+
+  .pages{
+    width: 93px;
+  }
+
+  .aps{
+   width: 114px;
+  }
+
+  .dizajn {
+    width: 91px;
+  }
+
+  .marketing{
+    width: 121px;
+    /* margin-right: 0; */
+  }
+
+  /* <--! <<<<<<<<<<<<<<< START page-projects>>>>>>>>>>>>>>>>>>>
 /*  */
 
 .filter-project-name{
@@ -320,9 +534,9 @@ color:rgba(255, 255, 255, 0.6);
     line-height: 171%;
 vertical-align: top;
 color:#212121;
+font-weight: 700;
 }
 
- 
 .filter-project{
     font-family: roboto;
     font-size: 16px;
@@ -331,5 +545,33 @@ color:#212121;
 vertical-align:top;
 color:#757575;
 }
-/* <--! <<<<<<<<<<<<<<< END container-projects>>>>>>>>>>>>>>>>>>>
+
+.list-page-projects{
+    display: flex;
+    flex-wrap: wrap;
+    height:100%;
+   gap:30px;
+   padding:0;
+   margin: 0;
+  
+}
+
+.page-projects-item{ 
+    flex-basis:calc((100% - 60px) / 3);
+
+}
+
+
+
+.page-projects-signature{
+    padding: 20px 24px;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;}
+
+    .page-projects{
+        margin-bottom: 94px;
+    }
+
+/* <--! <<<<<<<<<<<<<<< END page-projects>>>>>>>>>>>>>>>>>>>
 /*  */
